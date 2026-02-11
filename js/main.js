@@ -53,10 +53,10 @@ async function generarTicket(numero) {
 
   page.drawText(text, {
     x: (width - textWidth) / 2,
-    y: height -650,
+    y: height -690,
     size,
     font,
-    color: rgb(1, 1, 1)
+    color: rgb(0, 0, 0)
   });
 
   const pdfBytes = await pdfDoc.save();
