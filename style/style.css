@@ -1,0 +1,46 @@
+.body{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display:block;
+}
+
+.pagina2{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display:block;
+}
+
+.contenedor1{
+    text-align: center;
+    background: white;
+    padding: 2rem;
+}
+.contenedor2 {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+}
+
+button {
+    background-color: rgb(24, 68, 214); /* Color azul estilo Microsoft/Azure */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
