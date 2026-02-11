@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap');
+
+h1{
+    font-size: 6rem;
+}
+h2{
+    font-size: 3rem;
+}
 .body{
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     display:block;
+    font-family: "Honk", system-ui, sans-serif;
 }
 
 .pagina2{
@@ -12,12 +21,14 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     display:block;
+    font-family: "Honk", system-ui, sans-serif;
 }
 
 .contenedor1{
     text-align: center;
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 2rem;
+    font-family: "Honk", system-ui, sans-serif;
 }
 .contenedor2 {
     text-align: center;
@@ -26,8 +37,8 @@
 }
 
 button {
-    background-color: rgb(24, 68, 214); /* Color azul estilo Microsoft/Azure */
-    color: white;
+    text-decoration: none;
+    background-color: rgb(228, 141, 11); /* Color azul estilo Microsoft/Azure */
     border: none;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -37,10 +48,10 @@ button {
 }
 
 button:hover {
-    background-color: #005a9e;
+    background-color: #b9c1c7;
 }
 
 button:disabled {
-    background-color: #ccc;
+    background-color: #cec7c7;
     cursor: not-allowed;
 }
