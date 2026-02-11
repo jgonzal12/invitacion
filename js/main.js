@@ -53,7 +53,7 @@ async function generarTicket(numero) {
 
   page.drawText(text, {
     x: (width - textWidth) / 2,
-    y: height / 2,
+    y: height =-650,
     size,
     font,
     color: rgb(1, 1, 1)
