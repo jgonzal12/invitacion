@@ -15,9 +15,11 @@ h2{
     font-family: "Honk", system-ui, sans-serif;
 }
 
+
+
 .pagina2{
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     display:block;
@@ -29,6 +31,8 @@ h2{
     background: rgb(255, 255, 255);
     padding: 2rem;
     font-family: "Honk", system-ui, sans-serif;
+    font-size: 2rem;
+    
 }
 .contenedor2 {
     text-align: center;
@@ -36,9 +40,13 @@ h2{
     padding: 2rem;
 }
 
+.acceder{
+    text-decoration: none;
+}
+
 button {
     text-decoration: none;
-    background-color: rgb(228, 141, 11); /* Color azul estilo Microsoft/Azure */
+    background-color: rgb(228, 141, 11); 
     border: none;
     padding: 15px 30px;
     font-size: 1.2rem;
